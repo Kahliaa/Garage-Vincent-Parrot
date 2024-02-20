@@ -1,0 +1,11 @@
+.hours {
+    width: 230px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hours-day {
+    width: 90px;
+    border-right: solid 1px white;
+    padding-bottom: 3px;
+}

@@ -1,0 +1,32 @@
+.services-container {
+    flex: 1;
+}
+
+.services-title {
+    text-align: center;
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-align: center;
+    margin: 1em;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 500px) {
+    .services-container {
+        margin-bottom: 50px;
+    }
+    
+    .services-page {
+        margin-top: 20px;
+    }
+
+    .services-title {
+        display: none;
+    }
+}

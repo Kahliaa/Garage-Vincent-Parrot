@@ -1,0 +1,78 @@
+.home {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.735), rgba(72, 7, 7, 0.684)),url('src/assets/VoitureMainPage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-slogan {
+    color: white;
+    font-size: 5em;
+    font-weight: 600;
+}
+
+.top-btn {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.block {
+    background-color: #b20707b3;
+    width: 100%;
+    padding: 50px;
+}
+
+.general-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+}
+
+.logo-title {
+    margin-top: 10px;
+}
+
+.adresse-block {
+    color: white;
+    background-color: rgba(178, 7, 7, 0.701);
+    padding: 50px 0;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* ///////// MOBILE ////////////*/
+
+@media screen and (max-width: 767px) {
+    .home {
+        background-image: none;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .slogan {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .top-btn {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .adresse-block {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+}

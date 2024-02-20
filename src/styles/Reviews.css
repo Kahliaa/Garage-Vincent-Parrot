@@ -1,0 +1,25 @@
+.slider-container {
+    width: 500px;
+}
+  
+.swiper-slide {
+    height: 250px;
+    text-align: center;
+    font-size: 20px;
+    background: #ffffff55;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.review-card-name {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.review-card-review {
+    color: black;
+}

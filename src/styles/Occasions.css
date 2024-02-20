@@ -1,0 +1,44 @@
+.occasions-container {
+    flex: 1;
+}
+
+.occasions-title {
+    text-align: center;
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-align: center;
+    margin: 1em;
+}
+
+.cars-container {
+    display: flex;
+}
+
+.cars-filter {
+    margin: 50px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 1rem 1rem 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+}
+
+.cars-cards {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 500px) {
+    .occasions-container {
+        margin-bottom: 50px;
+    }
+
+    .occasions-title {
+        display: none;
+    }
+}

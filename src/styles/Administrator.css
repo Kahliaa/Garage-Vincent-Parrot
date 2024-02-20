@@ -1,0 +1,206 @@
+.administrator-container {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+}
+
+.administrator-title {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.administrator-option {
+    display: grid;
+    padding: 70px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.option-container {
+    background-color: #f0f0f0;
+    border-radius: 1rem 1rem 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.option-title {
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+}
+
+.option-title:hover {
+    color: red;
+}
+
+/*////POPUP////*/
+.popup {
+    position: fixed;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+.popup-inner {
+    text-align: center;
+}
+
+.popup button {
+    margin-top: 10px;
+}
+
+.cross-popup {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    
+}
+
+/*////POPUP CAR////*/
+.popup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.popup-form label {
+    font-weight: 600;
+}
+
+.popup-form input, textarea {
+    width: 400px;
+}
+
+/*////POPUP MODERATION////*/
+.moderation-review {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 50px;
+    border-bottom: 1px solid black;
+}
+.moderation-btn {
+    display: flex;
+    gap: 5px;
+}
+.btn-valider {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: blue;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-supprimer {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+}
+
+/*////POPUP SERVICES////*/
+.list-services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 50px;
+    border-bottom: 1px solid black;
+}
+
+.services-form {
+    display: flex;
+    justify-content: space-around;
+}
+
+.services-form input {
+    border-radius: 10px;
+    width: 250px;
+    flex: 1;
+    margin-right: 10px;
+}
+
+.btn-ajouter {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: green;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-edit {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: blue;
+    color: #fff;
+    cursor: pointer;
+}
+
+/*////POPUP HOURS////*/
+.hour-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hours-form input {
+    border-radius: 10px;
+    height: 35px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+/*////MESSAGES////*/
+.messages-container {
+    background-color: #f0f0f0;
+    border-radius: 1rem 1rem 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    color: black;
+}
+
+.messages {
+    padding: 20px;
+}
+
+.list-messages {
+    border-bottom: 1px solid black;
+    margin: 10px;
+    display: flex;
+}
+
+.message {
+    padding: 10px;
+}
+
+.btn-supprimer-message {
+    height: 30px;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+}
+
+.message-subject {
+    color: blue;
+}
